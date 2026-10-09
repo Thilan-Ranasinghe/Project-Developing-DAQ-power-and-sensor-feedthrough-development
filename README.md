@@ -66,25 +66,25 @@ I evaluated several alternative approaches for each task. The only components pu
 
 **1. PT1000 connected to the MAX31865 (2-wire jumper configuration)**
 
-![MAX31865 2-wire jumper setup](images/max31865_2wire_jumper.jpeg)
+![MAX31865 2-wire jumper setup](Images/max31865_2wire_jumper.jpeg)
 
 **2. D-sub mating connector with labeled sensors**
 
-![Pin mapping of the PT1000 to the mating D-sub connector](images/Pin_Labelling_PT1000_harness.jpeg)
+![Pin mapping of the PT1000 to the mating D-sub connector](Images/Pin_Labelling_PT1000_harness.jpeg)
 
 **3. Arduino wiring**
 
 Shown for two sensors; the same scheme was applied to all four.
 
-![Arduino to PT1000 wiring diagram](images/arduino_to_pt1000_wiring.png)
+![Arduino to PT1000 wiring diagram](Images/arduino_to_pt1000_wiring.png)
 
 ## Dashboard
 
 Grafana dashboard showing the PT1000 readings and the payload's internal temperatures:
 
-![Grafana dashboard overview](images/Grafana_Img1.png)
+![Grafana dashboard overview](Images/Grafana_Img1.png)
 
-![Grafana dashboard overview](images/Grafana_Img2.png)
+![Grafana dashboard overview](Images/Grafana_Img2.png)
 
 ## Results
 
